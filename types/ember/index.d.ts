@@ -528,7 +528,7 @@ namespace Ember {
         which sets up the listeners for event delegation. Every view in your application
         should be a child of the element you specify here.
         **/
-        rootElement: HTMLElement;
+        rootElement: HTMLElement | string;
         /**
         Called when the Application has become ready.
         The call will be delayed until the DOM has become ready.
