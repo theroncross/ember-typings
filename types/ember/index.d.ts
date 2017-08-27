@@ -295,7 +295,7 @@ interface RenderOptions {
     view?: string;
 }
 
-declare namespace Ember {
+namespace Ember {
     /**
     Alias for jQuery.
     **/
